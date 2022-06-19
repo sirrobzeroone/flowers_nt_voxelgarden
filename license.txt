@@ -13,7 +13,9 @@
 ---------------------------------------------------
 
 Applies to 3d models, textures and lua code/script
-Except i_bonemeal_override.lua which is MIT Copyright (c) 2016 TenPlus1
+Exceptions
+i_bonemeal_override.lua which is MIT Copyright (c) 2016 TenPlus1
+screenshot.png - Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) - see \games\minetest_game\license.txt
 
 https://creativecommons.org/publicdomain/zero/1.0/
 

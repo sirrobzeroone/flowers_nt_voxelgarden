@@ -4,7 +4,7 @@
 --       | _|| / _ \ V  V / -_) '_(_-< | .` | | |       --
 --       |_| |_\___/\_/\_/\___|_| /__/ |_|\_| |_|       --
 ----------------------------------------------------------
---                 MTG Flowers Register                 --
+--            Voxel Garden Flowers Register             --
 ----------------------------------------------------------
 --------------------------
 -- Disable flowers abns --
@@ -273,12 +273,6 @@ end
 if not flowers_nt.rollback then
 	minetest.unregister_item("flowers:waterlily")
 end
-
-
--- Manually delete flowers:waterlily decoration as name
--- is registered as "default:waterlily" but places - "flowers:waterlily_waving"
--- other decoration names are named as == to reg node name
-flowers_nt.delete_decoration({"default:waterlily"})
 
 -- Normal registration process
 flowers_nt.register_flower({

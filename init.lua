@@ -31,16 +31,3 @@ local is_ethereal = minetest.get_modpath("ethereal")
 if minetest.get_modpath("bonemeal") ~= nil then
 	dofile(m_path.. "/i_bonemeal_override.lua" )		
 end
-
-
-
-
-
-
-	
-
-
-
-
-
-
