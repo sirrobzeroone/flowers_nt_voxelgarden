@@ -133,7 +133,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "yellow",
 							sel_box     = {-0.35,-0.5,-0.35, 0.35, 0.35, 0.35},
-							e_groups    = {falling_node = 1},
+							e_groups    = {falling_node = 1,flammable = 1},
 							existing    = "flowers:dandelion_yellow"
 })
 
@@ -153,7 +153,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "white",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.10, 0.25},
-							e_groups    = {falling_node = 1},
+							e_groups    = {falling_node = 1,flammable = 1},
 							existing    = "flowers:dandelion_white"
 })
 
@@ -173,7 +173,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "blue",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.4, 0.25},
-							e_groups    = {falling_node = 1},
+							e_groups    = {falling_node = 1,flammable = 1},
 							existing    = "flowers:geranium"
 })
 
@@ -193,7 +193,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "red",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.5, 0.25},
-							e_groups    = {falling_node = 1},
+							e_groups    = {falling_node = 1,flammable = 1},
 							existing    = "flowers:rose"
 })
 
@@ -213,7 +213,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "orange",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.35, 0.25},
-							e_groups    = {falling_node = 1},
+							e_groups    = {falling_node = 1,flammable = 1},
 							existing    = "flowers:tulip"
 })
 
@@ -233,7 +233,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "violet",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.10, 0.25},
-							e_groups    = {falling_node = 1},
+							e_groups    = {falling_node = 1,flammable = 1},
 							existing    = "flowers:viola"
 })
 
